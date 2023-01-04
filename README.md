@@ -1,6 +1,16 @@
 # GitHub_Actions_Vite
 
-This template should help get you started developing with Vue 3 in Vite.
+This repository contains a sample workflow for building and deploying a Vite-powered app to GitHub Pages.
+
+## Demo
+
+[Vite App](https://hydrotho.github.io/GitHub_Actions_Vite/)
+
+## Requirement
+
+Please ensure that you have set the deployment source for GitHub Pages to GitHub Actions in the repository settings.
+
+![image](https://user-images.githubusercontent.com/42911474/210606690-07f00fad-8f8c-4754-8c25-1658c948bfb5.png)
 
 ## Recommended IDE Setup
 
