@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/GitHub_Actions_Vite/',
   plugins: [vue()],
   resolve: {
     alias: {
