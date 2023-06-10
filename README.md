@@ -1,4 +1,6 @@
-# GitHub_Actions_Vite
+# GitHub_Actions_Vite ![Deploy Vite-powered app to Pages Status](https://github.com/hydrotho/GitHub_Actions_Vite/actions/workflows/vite.yml/badge.svg)
+
+[English](README.md) | [中文](README_zh.md)
 
 This repository contains a sample workflow for building and deploying a Vite-powered app to GitHub Pages.
 
