@@ -42,7 +42,7 @@ jobs:
             echo "command=ci" >> $GITHUB_OUTPUT
             exit 0
           else
-            echo "Unable to determine packager manager"
+            echo "Unable to determine package manager"
             exit 1
           fi
       - name: Setup Node
@@ -55,9 +55,11 @@ jobs:
       - name: Restore cache
         uses: actions/cache@v3
         with:
-          path: dist
+          path: |
+            dist
           key: ${{ runner.os }}-vite-build-${{ hashFiles('dist') }}
-          restore-keys: ${{ runner.os }}-vite-build-
+          restore-keys: |
+            ${{ runner.os }}-vite-build-
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Static HTML export with Vite
