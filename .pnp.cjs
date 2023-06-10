@@ -12,14 +12,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],\
     "dependencyTreeRoots": [\
       {\
-        "name": "vue-project",\
+        "name": "github-actions-vite",\
         "reference": "workspace:."\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["vue-project", ["workspace:."]]\
+      ["github-actions-vite", ["workspace:."]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -28,8 +28,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@vitejs/plugin-vue", "virtual:7280f5c4b5cbaa1ba4a9e5447f3f1c1588df2a8e3b2e6d787f1f5221e116573dfd1c97295ce5c8eaf19ea33027202e2484cfbab1f218187af35fcac491efc009#npm:4.2.3"],\
-            ["vite", "virtual:7280f5c4b5cbaa1ba4a9e5447f3f1c1588df2a8e3b2e6d787f1f5221e116573dfd1c97295ce5c8eaf19ea33027202e2484cfbab1f218187af35fcac491efc009#npm:4.3.9"],\
+            ["@vitejs/plugin-vue", "virtual:3a09155ae0751acd199c6d697d3c871446004bcbc4e14b128cb129eda98efb27e3b1fe78c82b498c95461566054e0738b8d8d3b0de1c5a2b6ba810c7e1f60356#npm:4.2.3"],\
+            ["vite", "virtual:3a09155ae0751acd199c6d697d3c871446004bcbc4e14b128cb129eda98efb27e3b1fe78c82b498c95461566054e0738b8d8d3b0de1c5a2b6ba810c7e1f60356#npm:4.3.9"],\
             ["vue", "npm:3.3.4"]\
           ],\
           "linkType": "SOFT"\
@@ -330,13 +330,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:7280f5c4b5cbaa1ba4a9e5447f3f1c1588df2a8e3b2e6d787f1f5221e116573dfd1c97295ce5c8eaf19ea33027202e2484cfbab1f218187af35fcac491efc009#npm:4.2.3", {\
-          "packageLocation": "./.yarn/__virtual__/@vitejs-plugin-vue-virtual-26d41165fc/0/cache/@vitejs-plugin-vue-npm-4.2.3-f2af5ce2fe-1c70c1cd18.zip/node_modules/@vitejs/plugin-vue/",\
+        ["virtual:3a09155ae0751acd199c6d697d3c871446004bcbc4e14b128cb129eda98efb27e3b1fe78c82b498c95461566054e0738b8d8d3b0de1c5a2b6ba810c7e1f60356#npm:4.2.3", {\
+          "packageLocation": "./.yarn/__virtual__/@vitejs-plugin-vue-virtual-e90bf7710f/0/cache/@vitejs-plugin-vue-npm-4.2.3-f2af5ce2fe-1c70c1cd18.zip/node_modules/@vitejs/plugin-vue/",\
           "packageDependencies": [\
-            ["@vitejs/plugin-vue", "virtual:7280f5c4b5cbaa1ba4a9e5447f3f1c1588df2a8e3b2e6d787f1f5221e116573dfd1c97295ce5c8eaf19ea33027202e2484cfbab1f218187af35fcac491efc009#npm:4.2.3"],\
+            ["@vitejs/plugin-vue", "virtual:3a09155ae0751acd199c6d697d3c871446004bcbc4e14b128cb129eda98efb27e3b1fe78c82b498c95461566054e0738b8d8d3b0de1c5a2b6ba810c7e1f60356#npm:4.2.3"],\
             ["@types/vite", null],\
             ["@types/vue", null],\
-            ["vite", "virtual:7280f5c4b5cbaa1ba4a9e5447f3f1c1588df2a8e3b2e6d787f1f5221e116573dfd1c97295ce5c8eaf19ea33027202e2484cfbab1f218187af35fcac491efc009#npm:4.3.9"],\
+            ["vite", "virtual:3a09155ae0751acd199c6d697d3c871446004bcbc4e14b128cb129eda98efb27e3b1fe78c82b498c95461566054e0738b8d8d3b0de1c5a2b6ba810c7e1f60356#npm:4.3.9"],\
             ["vue", "npm:3.3.4"]\
           ],\
           "packagePeers": [\
@@ -824,6 +824,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["wide-align", "npm:1.1.5"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["github-actions-vite", [\
+        ["workspace:.", {\
+          "packageLocation": "./",\
+          "packageDependencies": [\
+            ["github-actions-vite", "workspace:."],\
+            ["@vitejs/plugin-vue", "virtual:3a09155ae0751acd199c6d697d3c871446004bcbc4e14b128cb129eda98efb27e3b1fe78c82b498c95461566054e0738b8d8d3b0de1c5a2b6ba810c7e1f60356#npm:4.2.3"],\
+            ["vite", "virtual:3a09155ae0751acd199c6d697d3c871446004bcbc4e14b128cb129eda98efb27e3b1fe78c82b498c95461566054e0738b8d8d3b0de1c5a2b6ba810c7e1f60356#npm:4.3.9"],\
+            ["vue", "npm:3.3.4"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["glob", [\
@@ -1556,10 +1568,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:7280f5c4b5cbaa1ba4a9e5447f3f1c1588df2a8e3b2e6d787f1f5221e116573dfd1c97295ce5c8eaf19ea33027202e2484cfbab1f218187af35fcac491efc009#npm:4.3.9", {\
-          "packageLocation": "./.yarn/__virtual__/vite-virtual-ffc655579e/0/cache/vite-npm-4.3.9-24f3552941-8c45a51627.zip/node_modules/vite/",\
+        ["virtual:3a09155ae0751acd199c6d697d3c871446004bcbc4e14b128cb129eda98efb27e3b1fe78c82b498c95461566054e0738b8d8d3b0de1c5a2b6ba810c7e1f60356#npm:4.3.9", {\
+          "packageLocation": "./.yarn/__virtual__/vite-virtual-9103355fd3/0/cache/vite-npm-4.3.9-24f3552941-8c45a51627.zip/node_modules/vite/",\
           "packageDependencies": [\
-            ["vite", "virtual:7280f5c4b5cbaa1ba4a9e5447f3f1c1588df2a8e3b2e6d787f1f5221e116573dfd1c97295ce5c8eaf19ea33027202e2484cfbab1f218187af35fcac491efc009#npm:4.3.9"],\
+            ["vite", "virtual:3a09155ae0751acd199c6d697d3c871446004bcbc4e14b128cb129eda98efb27e3b1fe78c82b498c95461566054e0738b8d8d3b0de1c5a2b6ba810c7e1f60356#npm:4.3.9"],\
             ["@types/less", null],\
             ["@types/node", null],\
             ["@types/sass", null],\
@@ -1604,18 +1616,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/shared", "npm:3.3.4"]\
           ],\
           "linkType": "HARD"\
-        }]\
-      ]],\
-      ["vue-project", [\
-        ["workspace:.", {\
-          "packageLocation": "./",\
-          "packageDependencies": [\
-            ["vue-project", "workspace:."],\
-            ["@vitejs/plugin-vue", "virtual:7280f5c4b5cbaa1ba4a9e5447f3f1c1588df2a8e3b2e6d787f1f5221e116573dfd1c97295ce5c8eaf19ea33027202e2484cfbab1f218187af35fcac491efc009#npm:4.2.3"],\
-            ["vite", "virtual:7280f5c4b5cbaa1ba4a9e5447f3f1c1588df2a8e3b2e6d787f1f5221e116573dfd1c97295ce5c8eaf19ea33027202e2484cfbab1f218187af35fcac491efc009#npm:4.3.9"],\
-            ["vue", "npm:3.3.4"]\
-          ],\
-          "linkType": "SOFT"\
         }]\
       ]],\
       ["which", [\
