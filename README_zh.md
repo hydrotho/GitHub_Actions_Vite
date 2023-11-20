@@ -25,17 +25,17 @@
 ## 项目设置
 
 ```sh
-yarn
+pnpm install
 ```
 
 ### 编译并为开发环境提供热重载
 
 ```sh
-yarn dev
+pnpm dev
 ```
 
 ### 编译并为生产环境压缩
 
 ```sh
-yarn build
+pnpm build
 ```
